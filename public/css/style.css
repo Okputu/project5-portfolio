@@ -182,6 +182,10 @@ header .hero__cta a:not(:nth-child(1)) {
           align-items: center;
 }
 
+.content .experience__info .heading h3 {
+  margin-bottom: 18px;
+}
+
 .content .experience__info .heading a.more {
   line-height: 23px;
   display: -webkit-box;
@@ -234,6 +238,10 @@ header .hero__cta a:not(:nth-child(1)) {
 
 .content .experience__info .details__item p span {
   font-weight: normal;
+}
+
+.content .skillset__info .heading h3 {
+  margin-bottom: 18px;
 }
 
 .content .skillset__info .details {
@@ -379,7 +387,6 @@ footer .findme ul li a span {
 }
 
 .copyright {
-  width: 1440px;
   background-color: #ff5678;
   color: #ffffff;
   padding: 35px 0;

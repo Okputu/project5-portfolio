@@ -155,6 +155,10 @@ header {
         justify-content: space-between;
         align-items: center;
 
+        h3 {
+          margin-bottom: 18px;
+        }
+
         a.more {
           line-height: 23px;
           display: flex;
@@ -201,6 +205,11 @@ header {
 
   .skillset {
     &__info {
+      .heading {
+        h3 {
+          margin-bottom: 18px;
+        }
+      }
       .details {
         margin-top: 40px;
         display: flex;
@@ -326,7 +335,6 @@ footer {
 
 //copyright
 .copyright {
-  width: 1440px;
   background-color: $pink-color;
   color: $white-color;
   padding: 35px 0;
