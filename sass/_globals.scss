@@ -14,8 +14,9 @@ body {
   font-family: $font;
 }
 
-.container {
-  padding: 0 158.5px;
+.wrapper {
+  width: 1440px;
+  margin: auto;
 }
 
 //general heading
@@ -81,7 +82,7 @@ header {
 
   .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 138px;
 
