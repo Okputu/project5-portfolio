@@ -20,6 +20,10 @@ body {
   margin: auto;
 }
 
+.container {
+  padding: 0 158.5px;
+}
+
 h2 {
   font-size: 45px;
 }
@@ -375,6 +379,7 @@ footer .findme ul li a span {
 }
 
 .copyright {
+  width: 1440px;
   background-color: #ff5678;
   color: #ffffff;
   padding: 35px 0;

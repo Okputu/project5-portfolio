@@ -19,6 +19,10 @@ body {
   margin: auto;
 }
 
+.container {
+  padding: 0 158.5px;
+}
+
 //general heading
 h2 {
   font-size: $heading1;
@@ -322,6 +326,7 @@ footer {
 
 //copyright
 .copyright {
+  width: 1440px;
   background-color: $pink-color;
   color: $white-color;
   padding: 35px 0;
